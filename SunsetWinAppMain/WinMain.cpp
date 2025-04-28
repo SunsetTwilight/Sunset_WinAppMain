@@ -44,7 +44,6 @@ int WINAPI wWinMain(
 
     startup_path = std::filesystem::absolute(startup_path);
 
-    
     //DLLƒtƒ@ƒCƒ‹“Ç‚İ‚İ
     HMODULE hModule = LoadLibraryEx(
         startup_path.c_str(), 

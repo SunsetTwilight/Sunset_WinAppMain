@@ -90,7 +90,7 @@ set brackets_end=")"
 
 echo R"(">Filepath_StartUp.txt
 
-echo %result%>>Filepath_StartUp.txt
+echo .\%result%>>Filepath_StartUp.txt
 echo %start_func_name%>>Filepath_StartUp.txt
 
 echo ")">>Filepath_StartUp.txt
